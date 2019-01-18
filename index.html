@@ -34,7 +34,7 @@ onclick="init_iframe();"
         /*html5 reset*/
         header, footer, section, article, aside, nav, hgroup {display:block}
         html, body {margin:0;padding:0;-webkit-text-size-adjust:none}
-        body {/* font:300 12px "Open Sans",Helvetica,Arial; */font-weight: bold;font-size:28px;color:BLACK}
+        body {/* font:300 12px "Open Sans",Helvetica,Arial; */font-weight: bold;font-size:18px;color:BLACK}
         h1, h2, h3, h4, h5, h6 {margin:0;padding:0;font-size:1em;font:300 14px "Open Sans",Helvetica,Arial}
         ol, ul, dl {margin:0;padding:0;list-style:none}
         div, li, dt, dd, form, iframe, p, a, span {margin:0;padding:0}
@@ -57,6 +57,10 @@ onclick="init_iframe();"
         .menu > ul > li{float:left;}
         .menu > ul > li > a{display:block;padding:15px 10px;text-align:center}
         .menu > ul > li > ul{display:none;position:absolute;top:44px}
+        .menu > ul:hover{
+        color: BLACK;
+        transform: scale(1.5);
+        transition: all 0.3s ease-in-out;}
         .menu > ul > li:hover > ul{display:block}
         .menu > ul > li > ul:hover{display:block}
         </style>

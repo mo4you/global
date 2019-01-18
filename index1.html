@@ -23,7 +23,7 @@
         }
         .menu li:hover{
             color: BLACK;
-            transform: scale(1.2);
+            transform: scale(1.5);
             transition: all 0.3s ease-in-out;
         }
     </style>
@@ -38,72 +38,3 @@
         </div>
     </body>
 </html>
-
-
-
-<script language="JavaScript">
-function reSize() {
-    try {
-        var objBody = main.document.body;
-        var objFrame = document.all["main"];
-        ifrmHeight = objBody.scrollHeight + (objBody.offsetHeight - objBody.clientHeight);
-        objFrame.style.height = ifrmHeight;
-    }
-        catch(e) {}
-}
-
-function init_iframe() {
-    reSize();
-    setTimeout('init_iframe()',1)
-}
-
-init_iframe();
-</script>
-
-
-
-
-
-
-
-
-<script>
-function resizeIF(Id)
-{
-      var obj = document.getElementById(Id);
-      var Body;
-      var H, Min;
-
-      // 최소 높이 설정 (너무 작아지는 것을 방지)
-      Min = 100;
-
-      // DOM 객체 할당
-      try
-      {
-              if (!document.all && obj.contentWindow.document.location.href == 'about:blank') {
-                      setTimeout("resizeIF('"+Id+"')", 10);
-                      return;
-              }
-
-              Body = obj.contentWindow.document.getElementsByTagName('BODY');
-              Body = Body[0];
-
-              if (this.Location != obj.contentWindow.document.location.href) {
-                      H = Body.scrollHeight + 5;
-                      obj.style.height =  (H<Min?Min:H) + 'px';
-
-                      this.Location = obj.contentWindow.document.location.href;
-              }
-      }
-      catch(e)
-      {
-              setTimeout("resizeIF('"+Id+"')", 10);
-              return;
-      }
-
-      setTimeout("resizeIF('"+Id+"')", 100);
-}
-resizeIF.prototype.Location = '';
-
-new resizeIF('main');
-</script>
