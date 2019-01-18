@@ -10,7 +10,4 @@
   }
 
 
-       function updateIFrame( height ) {
-         var iframe = document.getElementById( 'main' );
-         iframe.setAttribute( '+ 'height', height );
-       }
+  
