@@ -8,6 +8,3 @@
         ifrmHeight = objBody.scrollHeight;
         objFrame.style.height = ifrmHeight;
   }
-
-
-  
