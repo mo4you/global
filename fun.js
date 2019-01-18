@@ -1,6 +1,10 @@
 
 
-function iframeAutoResize(h){
-  if(h == null){ return false; } (h).height = "0px";
-  var iframeHeight= (h).contentWindow.document.body.scrollHeight;
-  (h).height=iframeHeight + 15; }
+
+  function resizeIF (){
+        var objBody = main.document.body;
+        var objFrame = document.all["main"];
+        objFrame.style.height = "0px";
+        ifrmHeight = objBody.scrollHeight;
+        objFrame.style.height = ifrmHeight;
+  }

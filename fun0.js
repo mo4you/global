@@ -1,7 +1,6 @@
 
 
 function resizeIF (){
-
   try {
       var objBody = main.document.body;
       var objFrame = document.all["main"];
@@ -12,7 +11,7 @@ function resizeIF (){
 }
 
 function init_iframe() {
-  main.height = "0px";
+  $("main").height = "0px";
   resizeIF();
   setTimeout('init_iframe()',1)
 }
