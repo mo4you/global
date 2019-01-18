@@ -14,9 +14,3 @@
          var iframe = document.getElementById( 'main' );
          iframe.setAttribute( '+ 'height', height );
        }
-
-       function rsize() {
-        var iframe = document.getElementById( 'inneriframe' );
-         var wrapper = document.getElementById( 'wrapper' );
-         var height = Math.max( document.body.offsetHeight, document.body.scrollHeight );
-         iframe.src = 'https://mo4you.github.io/global/autosize.html?height='+height;      }
