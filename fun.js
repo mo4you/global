@@ -7,4 +7,5 @@
         objFrame.style.height = "0px";
         ifrmHeight = objBody.scrollHeight;
         objFrame.style.height = ifrmHeight;
+        return;
   }
