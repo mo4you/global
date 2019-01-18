@@ -1,6 +1,7 @@
 
 
 function resizeIF (){
+
   try {
       var objBody = main.document.body;
       var objFrame = document.all["main"];
@@ -11,6 +12,7 @@ function resizeIF (){
 }
 
 function init_iframe() {
+  main.height = "0px";
   resizeIF();
   setTimeout('init_iframe()',1)
 }
@@ -31,3 +33,8 @@ $(function(){
 		$(this).width(doc.body.scrollWidth);
 	});
 });
+
+function iframeAutoResize(h){
+  if(h == null){ return false; } (h).height = "0px";
+  var iframeHeight= (h).contentWindow.document.body.scrollHeight;
+  (h).height=iframeHeight + 15; }
