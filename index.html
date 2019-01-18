@@ -22,7 +22,7 @@
     <!--제목링크-->
     <a href="index.html">
     <center>
-      <font color=BLACK size=5px><b>강남 글로벌 어학원 기초점</b></font>
+      <font color=BLACK size=7px><b>강남 글로벌 어학원 기초점</b></font>
     </center>
     </a>
     </div>
@@ -31,7 +31,7 @@
         /*html5 reset*/
         header, footer, section, article, aside, nav, hgroup {display:block}
         html, body {margin:0;padding:0;-webkit-text-size-adjust:none}
-        body {/* font:300 12px "Open Sans",Helvetica,Arial; */font-size:16px;color:BLACK}
+        body {/* font:300 12px "Open Sans",Helvetica,Arial; */font-weight: bold;font-size:18px;color:BLACK}
         h1, h2, h3, h4, h5, h6 {margin:0;padding:0;font-size:1em;font:300 14px "Open Sans",Helvetica,Arial}
         ol, ul, dl {margin:0;padding:0;list-style:none}
         div, li, dt, dd, form, iframe, p, a, span {margin:0;padding:0}
@@ -45,9 +45,13 @@
         .hidden {margin:0;padding:0;width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;display:block}
         .blind{width:0;height:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden}
         .clearfix:after {content:"";display:block;clear:both}
-        .menu{float:left; width:350;height:50px; background:WHITE}
-        .menu > ul{position:absolute}
-        .menu > ul > li{float:left}
+        .menu{    float: right;
+            position: relative;
+            left: -50%; width:auto;height:50px; background:WHITE}
+        .menu > ul{        float: left;
+          position: relative;
+          left: 50%;}
+        .menu > ul > li{float:left;}
         .menu > ul > li > a{display:block;padding:15px 10px;text-align:center}
         .menu > ul > li > ul{display:none;position:absolute;top:44px}
         .menu > ul > li:hover > ul{display:block}
@@ -57,7 +61,7 @@
         <body>
         <div class="menu">
         <ul class="clearfix">
-          <li><a href="#none">첫화면</a></li>
+          <li><a href="firstpage.html" target="main">첫화면</a></li>
         <li>
         <a href="#none">강의</a>
         <ul>
