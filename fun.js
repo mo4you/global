@@ -9,3 +9,11 @@
         objFrame.style.height = ifrmHeight;
         return;
   }
+
+  function resizeIF2 (){
+        var objBody = main.document.body;
+        var objFrame = document.all["main"];
+        ifrmHeight = objBody.scrollHeight;
+        objFrame.style.height = ifrmHeight;
+        return;
+  }

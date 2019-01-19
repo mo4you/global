@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* Reset */
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif'; letter-spacing:-1px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,input {margin:0;padding:0;}
+body,h1,h2,h3,h4,th,td,input, select, button {color:#000;font-family:'돋움',dotum,sans-serif;font-size:12px;font-weight:normal; line-height:18px;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+hr {display:none;}
+img,fieldset {border:0;}
+ul,ol,li {list-style:none;}
+img,input,select,textarea {vertical-align:middle;}
+table {border-collapse:collapse; border-spacing:0;}
+caption,th {text-align:left;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal; font-weight:normal;}
+abbr,acronym {border:0;}
+strong {font-weight:bold;}
+button {cursor:pointer;}
+a, a:active, a:visited {color:#454545;text-decoration:none;cursor:pointer;select-dummy: expression(this.hideFocus=true);}
+a:hover {color:#000; text-decoration:none;}
+
+
+
+
+
+
+#KHO_table002 { width:100%;}
+#KHO_table002 th{border:1px solid #ccc;font-weight:bold;padding:7px;color:#000;background:#ffeace; text-align:center;font-size:14px;line-height:22px;  border-top:3px solid #ff9000; font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';}
+#KHO_table002 td{padding:7px;font-size:14px;border:1px solid #ccc; font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';}
+
+.dict{text-align:center;}
+.tit5{background:orange; color:#fff; font-size:18px; font-weight:bold; padding:5px 15px; border-radius:40px; margin-bottom:5px; margin-bottom:10px; }
+.tit5 span{display:block; float:right;}

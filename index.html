@@ -25,6 +25,7 @@
 <meta name="viewport" content="width=device-width">
 <!--자바로드-->
 <script src="fun.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body bgcolor=#FFFFFF
@@ -48,6 +49,7 @@ onclick="init_iframe();"
     </center>
     </a>
     </div>
+    <br>
   <!--메뉴스타일-->
           <style type="text/css">
         /*html5 reset*/
@@ -121,9 +123,25 @@ onclick="init_iframe();"
 
   <iframe  id="main" src="firstpage.html" name="main" class="maincls"
    style="width:100%;  border:none"
-   onload="resizeIF()"
        scrolling="no" >
    </iframe>
+   <script>
+     // <iframe> 접근, 로딩 완료 후 실행
+     document.getElementById('main').onload = function(){
+        resizeIF ();
+           // <iframe>이 불러들인 문서의 window.document 접근
+           var document = this.contentWindow.document;
+           // <iframe><body>에 클릭 이벤트 할당
+           document.body.onclick = function(event){
+                 event = event || window.event;
+
+                resizeIF2 ();
+         }}
+
+
+   </script>
+
+
 
 
    <table cellpadding=0 cellspacing=0 border=0 style="width:100%;">
