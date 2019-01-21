@@ -33,7 +33,7 @@ a, a:link, a:visited, a:hover, a:active {color:inherit;font-size:1em;text-decora
 
 
 
-.gb-module-wrap {width:100%;height:50%;display:inline-block;position:relative;border:1px solid #e8e8e8;border-right:0;border-bottom:0;}
+.gb-module-wrap {width:100%;height:100%;display:inline-block;position:relative;border:1px solid #e8e8e8;border-right:0;border-bottom:0;}
 .gb-module li:first-child,.gb-module li:hover {background:rgba(0,0,0,0.25);}
 .gb-module li:first-child a i,.gb-module li:hover a i,.gb-module li:first-child .gb-m-tt,.gb-module li:hover .gb-m-tt {color:white;}
 
