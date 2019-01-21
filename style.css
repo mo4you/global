@@ -22,7 +22,7 @@ a, a:link, a:visited, a:hover, a:active {color:inherit;font-size:1em;text-decora
 
 
 
-#KHO_table002 { width:100%;}
+#KHO_table002 { width:100%;margin:0 auto;}
 #KHO_table002 th{border:1px solid #ccc;font-weight:bold;padding:7px;color:#000;background:#ffeace; text-align:center;font-size:14px;line-height:22px;  border-top:3px solid #ff9000; font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';}
 #KHO_table002 td{padding:7px;font-size:14px;border:1px solid #ccc; font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'Sans-serif';}
 
