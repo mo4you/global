@@ -1,0 +1,32 @@
+objFrame.style.height = "0px";
+
+function resizeIF2 (){
+      var objBody = main.document.body;
+      var objFrame = document.all["main"];
+      ifrmHeight = objBody.scrollHeight;
+      ifrmHeight1=objFrame.style.height-ifrmHeight
+      objFrame.style.height = ifrmHeight;
+      return;
+}
+
+
+function resizeIF (){
+      var objBody = main.document.body;
+      var objFrame = document.all["main"];
+      ifrmHeight = objBody.scrollHeight;
+      ifrmHeight1=objFrame.style.height-ifrmHeight
+      objFrame.style.height = objFrame.style.height+ifrmHeight
+      return;
+}
+
+
+function resizeIF2 (){
+  var objBody = main.document.body;
+  var objFrame = document.all["main"];
+  ifrmHeight = objBody.scrollHeight;
+  ifrmHeight1 = objFrame.style.height;
+  objFrame.style.height = "0px";
+  ifrmHeight2 = ifrmHeight - ifrmHeight1;
+  objFrame.style.height = ifrmHeight;
+  return;
+}
