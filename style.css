@@ -33,16 +33,16 @@ a, a:link, a:visited, a:hover, a:active {color:inherit;font-size:1em;text-decora
 
 
 
-.gb-module-wrap {width:100%;height:100%;display:inline-block;position:relative;border:1px solid #e8e8e8;border-right:0;border-bottom:0;}
+.gb-module-wrap {width:100%;/*height:100%;*/display:inline-block;position:relative;border:1px solid #e8e8e8;border-right:0;border-bottom:0;}
 .gb-module li:first-child,.gb-module li:hover {background:rgba(0,0,0,0.25);}
 .gb-module li:first-child a i,.gb-module li:hover a i,.gb-module li:first-child .gb-m-tt,.gb-module li:hover .gb-m-tt {color:white;}
 
 ul.gb-module {margin:0;padding:0;list-style:none;border-collapse:collapse;}
 .gb-module li {position:relative;display:inline-block;float:left;width:25%;height:250px;background:rgba(255,255,255,0.7);border-bottom:1px solid rgba(232,232,232,0.48);border-right:1px solid rgba(140,140,140,0.12);}
 .gb-module li a {display:block;width:100%;height:100%;-webkit-transition: all 0.2s ease-in-out;transition: all 0.2s ease-in-out;}
-.gb-module li a i {position:absolute;top:40px;left:0;bottom:50px;right:0;text-align:center;color:#8d8d8d;font-size:6.5em;}
+.gb-module li a i {position:absolute;top:40px;left:0;bottom:50px;right:0;text-align:center;color:#8d8d8d;font-size:1em;}
 /*movie module*/
-.gb-module-wrap.gb-mv {display:inline-block;position:relative;border:0;}
+.gb-module-wrap.gb-mv {display:inline-block;position:relative;border:0 }
 .gb-mv ul.gb-module {display:inline-block;width:100%;border:0;}
 .gb-mv .gb-module li {text-align:center;width:50%;height:320px;background:transparent;border:0;}
 .gb-mv .gb-module li:first-child, .gb-mv .gb-module li:hover {background:transparent;}
@@ -54,11 +54,12 @@ ul.gb-module {margin:0;padding:0;list-style:none;border-collapse:collapse;}
 .gb-mv .gb-module li {width:100%;margin-bottom:40px;height:380px;}}
   @media (max-width: 767px) {
     .gb-module li {width:33.333333%;height:180px;}
-.gb-module li a i {font-size:70px;}
+.gb-module li a i {font-size:5px;}
 .gb-mv .gb-module li {height:360px;}}
 @media (max-width: 480px) {
+  #gb-layout h2 {font-size:18px !important;text-align:center !important;}
   .gb-module li {width:50%;height:150px;}
-.gb-module li a i {font-size:55px;}
+.gb-module li a i {font-size:5px;}
   .gb-mv .gb-module li {height:260px;}}
   @media (max-width: 320px) {
 	.gb-mv .gb-module li {height:200px;}}
