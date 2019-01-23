@@ -1,6 +1,5 @@
 # frozen_string_literal: true
-
-ssource 'https://rubygems.org'
+source "https://rubygems.org"
 
 gem 'jekyll'
 
