@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
-gemspec
+ssource 'https://rubygems.org'
 
-gem "jekyll", "~> #{ENV["JEKYLL_VERSION"]}" if ENV["JEKYLL_VERSION"]
+gem 'jekyll'
 
-gem 'jekyll-feed'
+group :jekyll_plugins do
+  gem 'jekyll-feed'
+end
