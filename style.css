@@ -18,6 +18,20 @@ button {cursor:pointer;}
 a, a:link, a:visited, a:hover, a:active {color:inherit;font-size:1em;text-decoration:none}
 
 
+/*메뉴스타일-*/
+.ellipsis {display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis}
+.hidden {margin:0;padding:0;width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;display:block}
+.blind{width:0;height:0;font-size:0;line-height:0;text-indent:-9999px;overflow:hidden;visibility:hidden}
+.clearfix:after {content:"";display:block;clear:both}
+.menu{float: right;position: relative;left:-50%;width:auto;height:50px;}
+.menu > ul{float:left;position:relative;left: 50%;}
+.menu > ul > li{float:left;line-height : 1.8em; font-weight: bold;font-size:18px;text-align:center;}
+.menu > ul > li > a{display:block;padding:15px 10px;text-align:center; }
+.menu > ul > li > ul{display:none;position:absolute; top:46px}
+.menu > ul:hover{ /*  color:BLACK;transform:scale(1.5);transition:all 0.3s ease-in-out; */}
+.menu > ul > li:hover > ul{display:block}
+.menu > ul > li > ul:hover{display:block}
+
 
 
 
