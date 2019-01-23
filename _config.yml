@@ -4,11 +4,7 @@ title: 강남 글로벌 어학원
 email: nmknmk77@nate.com
 description: 강남 영어학원, 강남 영어 회화학원, 강남 글로벌 어학원 왕기초점 대표홈페이지입니다
 url: " http://www.gnagnamnumber1.tk"
-
-plugins:
-  - jekyll-feed
-
-
-
+feed_items: 10
+feed_update_period: daily
 plugins:
   - jekyll-feed
