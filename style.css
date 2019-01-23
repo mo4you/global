@@ -29,7 +29,7 @@ a, a:link, a:visited, a:hover, a:active {color:inherit;font-size:1em;text-decora
 .menu > ul{float:left;position:relative;left: 50%;}
 .menu > ul > li{float:left;line-height : 1.8em; font-weight: bold;font-size:18px;text-align:center;}
 .menu > ul > li > a{display:block;padding:15px 10px;text-align:center; }
-.menu > ul > li > ul{display:none;width: 100%; top:46px}
+.menu > ul > li > ul{display:none;background: rgba(255,255,255,0.8);width: 100%; top:46px}
 .menu > ul:hover{ /*  color:BLACK;transform:scale(1.5);transition:all 0.3s ease-in-out; */}
 .menu > ul > li:hover > ul{display:block}
 .menu > ul > li > ul:hover{display:block}
