@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+<rss xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
   <id>tag:github.com,2008:/mo4you/global/commits/master</id>
   <link type="text/html" rel="alternate" href="https://github.com/mo4you/global/commits/master"/>
   <link type="application/atom+xml" rel="self" href="https://github.com/mo4you/global/commits/master.atom"/>
@@ -325,4 +325,4 @@
       &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;41&lt;/pre&gt;
     </content>
   </entry>
-</feed>m
+</feed>
